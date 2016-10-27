@@ -1,0 +1,65 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.navbar-header {
+display: inline block;
+   background-color: #39474e;
+   height: 100px;
+   line-height: 100px;
+}
+
+.navbar-nav {
+  padding-left: 15%;
+  padding-right: 15%;
+  p:hover, h1:hover, a:hover {
+    background-color:#7a8289;
+}
+}
+
+
+
+.navbar-right {
+  color: #7a8289;
+}
+
+.hero {
+  clear: both;
+  background-image: url(../images/TIYhomepage.jpg);
+  height: 500px;
+  background-size: cover;
+  padding-top: 250px;
+}
+
+.hero-text {
+  font-size: 48px;
+  color: white;
+  font-family: PT serif;
+  padding-left: 15%;
+}
+
+.icon {
+  clear: both;
+  background-color: #eeeeee;
+  height: 100px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.bodytext {
+  color: #727d84;
+  font-size: 16px;
+  padding: 5%;
+
+  line-height: 1.6;
+}
+
+.form1 {
+  background-color: #ebebeb;
+  border-style:solid;
+}
+label {
+  float: left;
+  text-align: left;
+  padding: 5%;
+}
