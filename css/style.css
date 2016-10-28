@@ -1,32 +1,21 @@
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-}
-
-.navbar-header {
-display: inline block;
-   background-color: #39474e;
-   height: 100px;
-   line-height: 100px;
-}
-
-.navbar-nav {
+.navbar-inverse {
+  color: white;
+  display: block;
   padding-left: 15%;
   padding-right: 15%;
-  p:hover, h1:hover, a:hover {
-    background-color:#7a8289;
-}
-}
-
-
-
-.navbar-right {
-  color: #7a8289;
+  background-color: #39474e;
+  border: none;
+  height: 100px;
 }
 
+.header {
+  padding-top: 20px;
+}
 .hero {
+  margin-top: 0;
   clear: both;
   background-image: url(../images/TIYhomepage.jpg);
-  height: 500px;
+  height: 600px;
   background-size: cover;
   padding-top: 250px;
 }
@@ -41,25 +30,51 @@ display: inline block;
 .icon {
   clear: both;
   background-color: #eeeeee;
-  height: 100px;
+  height: 115px;
   padding-left: 15%;
   padding-right: 15%;
+}
+
+.body {
+  margin: 5%;
 }
 
 .bodytext {
   color: #727d84;
   font-size: 16px;
-  padding: 5%;
-
   line-height: 1.6;
+  padding: 2%;
 }
 
 .form1 {
   background-color: #ebebeb;
-  border-style:solid;
+  border-radius: 25px;
+  border-style: hidden;
+  padding: 5%;
 }
 label {
   float: left;
   text-align: left;
   padding: 5%;
+}
+.btn .btn-default {
+  color: red;
+}
+
+.discover {
+  height: 450px;
+  text-align: center;
+  background-color: #eeeeee;
+  color: #838f95;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 20px;
+}
+
+
+.col-sm-3 {
+  padding: 5%;
+  line-height: 1px;
 }
