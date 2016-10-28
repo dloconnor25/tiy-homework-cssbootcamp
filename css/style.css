@@ -6,6 +6,7 @@
   background-color: #39474e;
   border: none;
   height: 100px;
+  margin: 0 auto;
 }
 
 .header {
@@ -28,22 +29,25 @@
 }
 
 .icon {
-  clear: both;
   background-color: #eeeeee;
-  height: 115px;
-  padding-left: 15%;
-  padding-right: 15%;
+}
+
+.x {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .body {
-  margin: 5%;
+padding-top: 2%;
+padding-bottom: 2%;
 }
-
 .bodytext {
   color: #727d84;
   font-size: 16px;
   line-height: 1.6;
-  padding: 2%;
+  padding-right: 10%;
 }
 
 .form1 {
@@ -57,11 +61,12 @@ label {
   text-align: left;
   padding: 5%;
 }
-.btn .btn-default {
-  color: red;
-}
+/*.btn .btn-default {
+  color: red;*/
+
 
 .discover {
+  clear: both;
   height: 450px;
   text-align: center;
   background-color: #eeeeee;
@@ -77,4 +82,36 @@ label {
 .col-sm-3 {
   padding: 5%;
   line-height: 1px;
+}
+
+.box {
+    margin: 0 auto;
+  background-image: url(../images/TIYemployers.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.employalign {
+
+  padding-bottom: 5%;
+}
+.employers {
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 20px;
+}
+
+.logos {
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 15%;
+}
+
+.footer {
+  height: 50px;
+  background-color: #39474e;
 }
